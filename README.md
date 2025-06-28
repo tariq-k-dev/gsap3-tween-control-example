@@ -58,8 +58,6 @@ No build step required.
 
 ## License
 
-## License
-
 [MIT License](LICENSE)
 
 ---
