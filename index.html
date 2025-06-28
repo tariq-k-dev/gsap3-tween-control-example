@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GSAP3: Tween Control Example</title>
+    <meta name="description"
+      content="A simple example demonstrating how to control a GSAP tween with play, pause, reverse, restart, and reset buttons." />
+    <meta name="keywords" content="GSAP, Tween, Animation, JavaScript, Control, Play, Pause, Reverse, Restart, Reset" />
+    <meta name="author" content="Tariq Khan" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <script src="./scripts/gsap-latest-beta.min.js"></script>
+    <script src="./scripts/script.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="https://greensock.com/gsap/" target="_blank">GSAP</a></li>
+          <li><a href="https://greensock.com/docs/v3/GSAP/gsap.to()" target="_blank">gsap.to()</a></li>
+          <li><a href="https://greensock.com/docs/v3/GSAP/gsap.from()" target="_blank">gsap.from()</a></li>
+          <li><a href="https://greensock.com/docs/v3/GSAP/gsap.fromTo()" target="_blank">gsap.fromTo()</a></li>
+          <li><a href="https://greensock.com/docs/v3/GSAP/gsap.set()" target="_blank">gsap.set()</a></li>
+        </ul>
+      </nav>
+      <h1>GSAP3: Tween Control Example</h1>
+      <section class="description">
+        <p>
+          This example demonstrates how to control a GSAP tween using buttons to play, pause, reverse, restart, and
+          reset the animation.
+        </p>
+      </section>
+    </header>
+
+    <main>
+      <section class="image" aria-label="Animated Blob">
+        <img class="fred green" src="./images/fred.svg" alt="Fred slime green blob" width="150" />
+      </section>
+      <section class="controls" aria-label="Tween Controls">
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+        <button id="reverse">Reverse</button>
+        <button id="restart">Restart</button>
+        <button id="reset">Reset</button>
+      </section>
+    </main>
+  </body>
+
+</html>
